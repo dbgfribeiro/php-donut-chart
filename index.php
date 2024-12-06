@@ -10,6 +10,6 @@
   <?php include 'chart-data.php'; ?>
   <?php include 'chart.php'; ?>
 
-   <script src="chart.js"></script>
+  <script src="chart.js"></script>
 </body>
 </html>

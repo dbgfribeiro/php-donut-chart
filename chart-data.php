@@ -9,37 +9,37 @@
       [
         "value" => 4,
         "label" => "4%",
-        "title" => "tooltip",
+        "title" => "Tooltip 1",
         "reference" => 1,
       ],
       [
         "value" => 7,
         "label" => "7%",
-        "title" => "tooltip",
+        "title" => "Tooltip 2",
         "reference" => 2,
       ],
       [
         "value" => 12,
         "label" => "12%",
-        "title" => "tooltip",
+        "title" => "Tooltip 3",
         "reference" => 3,
       ],
       [
         "value" => 42,
         "label" => "42%",
-        "title" => "tooltip",
+        "title" => "Tooltip 4",
         "reference" => 4,
       ],
       [
         "value" => 12,
         "label" => "12%",
-        "title" => "tooltip",
+        "title" => "Tooltip 5",
         "reference" => 5,
       ],
       [
         "value" => 23,
         "label" => "23%",
-        "title" => "tooltip",
+        "title" => "Tooltip 6",
         "reference" => 6,
       ]
     ]
