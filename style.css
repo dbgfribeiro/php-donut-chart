@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #F8FAFB;
+}
+
+.chart-container {
+  position: relative;
+  display: inline-block;
+  margin: -4rem auto 0 auto;
+  background-color: #FFFFFF;
+  padding: 4rem;
+  border-radius: 14px;
+  border: 1px solid #E0E6ED;
+}
+
+#donut-chart {
+  overflow: visible;
+}
+
+#donut-chart .slice {
+  cursor: pointer;
+  stroke: #FFFFFF;
+  stroke-width: 2px;
+  transition: opacity 0.2s;
+}
+
+#donut-chart .slice:hover {
+  opacity: 0.7;
+}
+
+#donut-chart .inner-label {
+  fill: #FFFFFF;
+  font-size: 1rem;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+#donut-chart .outer-label-wrapper {
+  fill: #333E4C;
+}
+
+#donut-chart .outer-label {
+  fill: #FFFFFF;
+  font-size: 0.875rem;
+  text-anchor: middle;
+}
+
+#donut-chart .highlight {
+  fill: #1F2935;
+  text-anchor: middle;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: none;
+  pointer-events: none;
+  font-size: 14px;
+  z-index: 1000;
+}

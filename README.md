@@ -1,1 +1,3 @@
-# php-donut-chart
+# PHP Donut Chart
+
+![chart-demo](demo.png)
